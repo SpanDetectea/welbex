@@ -1,7 +1,7 @@
 # Как запустить проект
 
 Скачайте проект либо архивом, либо 
-`git clone https://github.com/SpanDetectea/takeoffstafftz.git`
+`git clone https://github.com/SpanDetectea/welbex.git`
 
 ## Откройте проект в консоли 
 
