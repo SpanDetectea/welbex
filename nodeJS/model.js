@@ -1,10 +1,11 @@
 const Pool = require('pg').Pool
 const pool = new Pool({
-    user: 'my_user',
-    host: 'localhost',
-    database: 'welbex',
-    password: 'root',
+    user: 'zxqytlkaetlcdz',
+    host: 'ec2-34-242-84-130.eu-west-1.compute.amazonaws.com',
+    database: 'd29d2hp33vjrbc',
+    password: '72b558180c933c4842fc1a240faf580d4ecf49211332c444b2a04194dcfb014e',
     port: 5432,
+    ssl: { rejectUnauthorized: false }
 });
 const getInfo = () => {
     return new Promise(function (resolve, reject) {

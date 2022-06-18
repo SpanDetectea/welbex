@@ -1,7 +1,7 @@
 import * as axios from "axios";
 
 export function getInformation(page, sort) {
-    return axios.get(`http://localhost:3001/?page=${page}&limit=10&sort=${JSON.stringify(sort)}`).then(response => { return response.data });
+    return axios.get(`https://deploy-backend-welbex.herokuapp.com/?page=${page}&limit=10&sort=${JSON.stringify(sort)}`).then(response => { return response.data });
 }
 export function getCount(value, head, currentPage, sort) {
     return axios.get(`http://localhost:3001/count?value=${value}&head=${head}&page=${currentPage}&limit=10&sort=${JSON.stringify(sort)}`).then(response => { return response.data });
